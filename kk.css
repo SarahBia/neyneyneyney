@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #282A3A;
+
+}
+body,
+  main {
+padding:0
+    border: 1px solid white;
+
+    margin: 0 auto;
+    font-family: verdana;
+    color: white;
+  }
+
+}
+p{
+color: white;
+}
+h5 { font-family: 'Bebas Neue';
+font-size: 2em;
+}
+h2 {
+
+font-family:'League Spartan';
+
+}
+h1 {
+  font-family: 'League Gothic';
+  font-size: 6em;
+
+
+}
+header {
+width: auto
+  align-items: left;
+  background-color: black;
+}
+  header,
+  nav {
+    margin: 1 auto;
+    display: flex;
+
+
+  }
+
+
+
+
+  main {
+    display: flex;
+  }
+
+  #box {
+    background-color: #404258 ;
+    height: 128px;
+    width:650px;
+  }
+
+
+body main article h1{
+
+font-family:'Bebas Neue';
+
+-webkit-box-shadow: 32px 19px 0px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 19px 0px 8px rgba(0,0,0,0.75);
+box-shadow: 32px 19px 0px 8px rgba(0,0,0,0.75);
+
+
+}
+body main article p {
+  font-family: 'League Spartan';
+  font-size: 2em;
+}
+
+  main div.img {
+
+    width: 200px;
+    flex: none;
+  }
+
+  main article {
+    padding: 5px 10px;
+    display: inline
+  }
+
+  main article video {
+
+    box-shadow: 5px 5px 10px 1px #000;
+    border: 1px solid black;
+    width: 400px;
+    height: px;
+    float: right;
+  }
